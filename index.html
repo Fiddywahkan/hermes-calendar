@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hermes-calendar</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin:0; padding:3rem 1.25rem 5rem; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         max-width:44rem; margin-inline:auto; color:#1a1a1a; background:#fff; }
+  @media (prefers-color-scheme: dark){ body{ color:#e8e8e8; background:#111; } a{ color:#7cb3ff; } code{ background:#1e1e1e; } }
+  h1 { font-size:1.9rem; margin:0 0 .35rem; letter-spacing:-.02em; }
+  h2 { font-size:1.05rem; margin:2.2rem 0 .5rem; text-transform:uppercase; letter-spacing:.06em; color:#666; }
+  @media (prefers-color-scheme: dark){ h2{ color:#999; } }
+  .sub { color:#666; margin:0 0 2rem; }
+  @media (prefers-color-scheme: dark){ .sub{ color:#999; } }
+  ul { padding-left:1.15rem; }
+  li { margin:.3rem 0; }
+  code { background:#f2f2f2; padding:.1rem .35rem; border-radius:3px; font-size:.88em; }
+  footer { margin-top:3.5rem; padding-top:1.25rem; border-top:1px solid #e2e2e2; font-size:.85rem; color:#777; }
+  @media (prefers-color-scheme: dark){ footer{ border-color:#2a2a2a; color:#888; } }
+</style>
+</head>
+<body>
+
+<h1>hermes-calendar</h1>
+<p class="sub">A private, single-user automation for one person's own Google Calendar.</p>
+
+<h2>What this is</h2>
+<p>
+  <strong>hermes-calendar</strong> is a personal-use software application that connects a local
+  automation agent — running entirely on the owner's own computer — to the owner's own
+  Google Calendar account.
+</p>
+<p>
+  It is not a product, service, or public offering. It is not distributed, and it has exactly
+  one user: the person who owns both the software and the Google account it connects to.
+  There is no sign-up, no other accounts, and no other users.
+</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Creates calendar events and reminders at the owner's request</li>
+  <li>Reads existing events to check availability and avoid conflicts</li>
+  <li>Updates and deletes events the owner asks it to change</li>
+</ul>
+
+<h2>Google API scope requested</h2>
+<p>
+  <code>https://www.googleapis.com/auth/calendar</code> — read and write access to the
+  authorizing account's own calendars. This scope is used only to perform the actions listed
+  above. No other Google data is requested or accessed.
+</p>
+
+<h2>How your data is handled</h2>
+<ul>
+  <li>Calendar data is used only to carry out actions the account owner explicitly requests.</li>
+  <li>OAuth credentials are stored locally, on the owner's own machine. Google user data is
+      not transmitted to, stored on, or processed by any third-party server.</li>
+  <li>No data is sold, shared, transferred, or disclosed to any third party.</li>
+  <li>No advertising, profiling, analytics, or machine-learning training uses your data.</li>
+</ul>
+
+<h2>Privacy policy</h2>
+<p>
+  Full details of what is accessed, how it is stored, and how to revoke access:
+  <a href="privacy.html">Privacy Policy</a>.
+</p>
+
+<h2>Contact</h2>
+<p>
+  <a href="mailto:kieran.mccrorey@gmail.com">kieran.mccrorey@gmail.com</a>
+</p>
+
+<footer>
+  hermes-calendar — personal calendar automation. Last updated September 2026.
+</footer>
+
+</body>
+</html>
